@@ -12,8 +12,7 @@ Welcome to the ansj_seg wiki!
 
 
 1.这是一个标注的调用方式
-`
-package org.ansj.splitWord.impl;
+`package org.ansj.splitWord.impl;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -35,9 +34,7 @@ public class Demo {
 			System.out.print(term.getName()+" ");
 		}
 	}
-}
-
-`
+}`
 
 2.这是一个简易的调用方式
 `
