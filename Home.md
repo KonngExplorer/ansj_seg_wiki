@@ -12,7 +12,8 @@ Welcome to the ansj_seg wiki!
 
 
 1.这是一个标注的调用方式
-`package org.ansj.splitWord.impl;
+<pre><code>
+package org.ansj.splitWord.impl;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -34,10 +35,11 @@ public class Demo {
 			System.out.print(term.getName()+" ");
 		}
 	}
-}`
+}
+</pre></code>
 
 2.这是一个简易的调用方式
-`
+<pre><code>
 package org.ansj.splitWord.impl;
 
 import java.io.IOException;
@@ -60,12 +62,12 @@ public class SimpleDemo {
 	}
 }
 
-`
+</pre></code>
 
 
 3.如何做词性标注,词性标注是需要在分词结果后调用词性标注.下面写一个简单的方式.有针对文件的词性标注特殊的处理办法.不要着急
 
-`
+<pre><code>
 package org.ansj.splitWord.impl;
 
 import java.io.IOException;
@@ -88,10 +90,11 @@ public class NatureDemo {
 	}
 }
 
-`
+</pre></code>
 
 
 以上这些结果你会看到
+<pre><code>
 [ansj/en, 中文/nz, 分/q, 词/n, 是/v, 一个/m, 真正/d, 的/uj, ict/en, 的/uj, 实现/v, ./m, 并且/c, 加入/v, 了/ul, 自己/r, 的/uj, 一些/m, 数据结构/userDefine, 和/c, 算法/n, 的/uj, 分词/n, ./m, 实现/v, 了/ul, 高/a, 效率/n, 和/c, 高/a, 准确率/n, 的/uj, 完美/a, 结合/v, !/null]
-
-完毕手工.
+</pre></code>
+完毕收工.
