@@ -12,20 +12,12 @@ Welcome to the ansj_seg wiki!
 
 
 1.这是一个标注的调用方式
-<pre><code>
-package org.ansj.splitWord.impl;
-
-import java.io.IOException;
-import java.io.StringReader;
-
-import org.ansj.domain.Term;
+<pre><code>import org.ansj.domain.Term;
 import org.ansj.splitWord.Analysis;
 import org.ansj.splitWord.analysis.ToAnalysis;
-
 /**
  * 标注的分词方式,这里面的流你可以传入任何流.除了流氓
  * @author ansj
- *
  */
 public class Demo {
 	public static void main(String[] args) throws IOException {
@@ -35,21 +27,12 @@ public class Demo {
 			System.out.print(term.getName()+" ");
 		}
 	}
-}
-</pre></code>
+}</pre></code>
 
 2.这是一个简易的调用方式
-<pre><code>
-package org.ansj.splitWord.impl;
-
-import java.io.IOException;
-import java.io.StringReader;
-import java.util.List;
-
-import org.ansj.domain.Term;
+<pre><code>import org.ansj.domain.Term;
 import org.ansj.splitWord.Analysis;
 import org.ansj.splitWord.analysis.ToAnalysis;
-
 /**
  * 最最最简单的分词调用方式
  * @author ansj
@@ -60,27 +43,18 @@ public class SimpleDemo {
 		List<Term> paser = ToAnalysis.paser("Ansj中文分词是一个真正的ict的实现.并且加入了自己的一些数据结构和算法的分词.实现了高效率和高准确率的完美结合!");
 		System.out.println(paser);
 	}
-}
-
-</pre></code>
+}</pre></code>
 
 
 3.如何做词性标注,词性标注是需要在分词结果后调用词性标注.下面写一个简单的方式.有针对文件的词性标注特殊的处理办法.不要着急
 
 <pre><code>
-package org.ansj.splitWord.impl;
-
-import java.io.IOException;
-import java.util.List;
-
 import org.ansj.domain.Term;
 import org.ansj.splitWord.analysis.ToAnalysis;
 import org.ansj.util.recognition.NatureRecognition;
-
 /**
  * 词性标注
  * @author ansj
- *
  */
 public class NatureDemo {
 	public static void main(String[] args) throws IOException {
@@ -88,9 +62,7 @@ public class NatureDemo {
 		new NatureRecognition(terms).recogntion() ;
 		System.out.println(terms);
 	}
-}
-
-</pre></code>
+}</pre></code>
 
 
 以上这些结果你会看到
