@@ -38,6 +38,7 @@ import org.apache.lucene.util.Version;
 
 public class LucenePlugTest {
 	public static void main(String args[]) throws CorruptIndexException, IOException, ParseException {
+		//停用词典
 		HashSet<String> hs = new HashSet<String>();
 		BufferedReader reader2 = IOUtil.getReader(ResourceBundle.getBundle("library").getString("stopLibrary"), "UTF-8");
 		String word = null;
@@ -96,5 +97,6 @@ public class LucenePlugTest {
 
 注意你在运行时候不出意外会出现 <red>用户自定义词典:library/userLibrary/userLibrary.dic, 没有这个文件!</red>
 
-这是用户自定义词典的没有找到.如果你需要此功能.就按照路径加入用户自定义词典.用户自定义词典的格式是 word[tab]nature[tab]freq 
+这是用户自定义词典的没有找到.如果你需要此功能.就按照路径加入用户自定义词典.用户自定义词典的格式是 word[tab]nature[tab]freq
+
 example: 孙健	nr	100
