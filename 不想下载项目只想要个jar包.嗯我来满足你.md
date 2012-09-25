@@ -1,5 +1,3 @@
-日不能上传文件....
+详情见此目录,你可以直接从这里下载你需要的jar包
 
-http://www.ansj.org/down/ansj_seg.jar
-
-下载这个jar包..木有然后了..你懂的
+https://github.com/ansjsun/ansj_seg/tree/master/contrib
