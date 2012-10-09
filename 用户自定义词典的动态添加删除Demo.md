@@ -1,7 +1,10 @@
 直接看例子.这个功能其实在tree-split中就已经存在的.
+
 说明:
+
 1..删除只能删除用户自定义词典的词.
-2.对了分词默认把大写都转换为小写了.所以添加新词的时候要求必须是小写
+
+2.对了分词默认把大写都转换为小写了.所以添加新词的时候要求必须是小写.
 <pre><code>
 public class DynamicWordDemo {
 	public static void main(String[] args) {
