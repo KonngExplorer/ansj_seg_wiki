@@ -1,7 +1,7 @@
 直接看例子.
 1.有一个说明.删除只能删除用户自定义词典的词.删除别的没有意义.
 2.对了分词默认把大写都转换为小写了.所以添加新词的时候要求必须是小写
-<code><pre>
+<pre><code>
 /**
  * 动态添加删除用户自定义词典!
  * @author ansj
@@ -20,4 +20,4 @@ public class DynamicWordDemo {
 		new NatureRecognition(terms).recogntion() ;
 		System.out.println("删除用户自定义词典例子:"+terms);
 	}
-</code></pre>
+</pre></code>
