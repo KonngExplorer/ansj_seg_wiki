@@ -1,0 +1,1 @@
+在初始化NewWordFind的时候找不到library/stop/stopLibrary.dic，是否可以提供一个，并且打包到下载的ZIP中
