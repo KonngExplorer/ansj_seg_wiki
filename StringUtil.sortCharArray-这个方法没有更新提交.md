@@ -1,0 +1,1 @@
+在ForeignPersonRecognition 类 调用StringUtil.sortCharArray，这个方法没有更新提交
