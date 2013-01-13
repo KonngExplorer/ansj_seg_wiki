@@ -1,13 +1,11 @@
 也没什么优势.-_-!
 
-呵呵.目前支持英文时态,复数的统一.同意转换为小写.支持停用词典.<red>未来会增加近义词词典</red>
+lucene3.x版本的插件源码
+https://github.com/ansjsun/ansj_seg_lucene_32_plug
+lucene4.x版本的插件源码
+https://github.com/ansjsun/ansj_seg_lucene_40_plug
 
-下面我来介绍如何使用吧.
 
-首先来到这里 https://github.com/ansjsun/ansj_seg/tree/master/contrib .
-下载 ansj_lucene_plug.jar ,ansj_seg.jar
-
-ansj_lucene_plug.jar 是lucene插件的jar包
 ansj_seg.jar 是核心源码
 吧这两个jar加入到环境变量中.当然你要使用lucene需要lucene的jar.我就不废话了,
 然后你可以写代码了
