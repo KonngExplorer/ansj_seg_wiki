@@ -20,6 +20,17 @@ public class ReloadAmbiguityLibrary {
         loadFormFile();
         //通过内存中reload
         loadFormStr();
+        
+        
+        //歧义辞典增加新词
+        
+        Value value = new Value("三个和尚","三个","m","和尚","n") ;
+        Library.insertWord(UserDefineLibrary.ambiguityForest, value) ;
+        
+        
+        //歧义辞典删除词
+        Library.removeWord(UserDefineLibrary.ambiguityForest, "三个和尚") ;
+        
     }
 
     private static void loadFormStr() {
@@ -41,4 +52,5 @@ public class ReloadAmbiguityLibrary {
         UserDefineLibrary.ambiguityForest = forest;
     }
 }
+
 ```
