@@ -27,3 +27,8 @@ java -classpath [jar包位置] org.ansj.app.web.AnsjServer <端口号>
 是否启用词性标注，true 代表启用，false 代表禁用。
 
 默认为 true。
+
+
+## 如果需要一个演示界面可以直接访问
+http://127.0.0.1:16009/page/index.html 
+就可以进行可视化操作了
