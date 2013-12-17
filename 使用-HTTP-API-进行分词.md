@@ -8,7 +8,7 @@ mvn exec:java -Dexec.mainClass="org.ansj.web.AnsjServer" -Dexec.args="<端口号
 
 在 staging 或生产环境中，运行 org.ansj.webAnsjServer 类即可，如：
 
-java -classpath "ansj_seg.jar" org.ansj.web.AnsjServer <端口号>
+java -classpath [jar包位置] org.ansj.app.web.AnsjServer <端口号>
 
 # API 调用
 假设端口号为 16000。
