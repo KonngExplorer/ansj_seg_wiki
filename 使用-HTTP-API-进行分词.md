@@ -32,3 +32,11 @@ java -classpath [jar包位置] org.ansj.app.web.AnsjServer <端口号>
 ## 如果需要一个演示界面可以直接访问
 http://127.0.0.1:16009/page/index.html 
 就可以进行可视化操作了
+
+# 为了方便调用。为了不总解释我搭配好了一套系统大家可以从这里下载。
+http://yun.baidu.com/s/1dDBrec5#dir/path=%2Fansj%E5%88%86%E8%AF%8D
+下载ansj_web.jar
+
+解压缩运行run.sh 然后访问
+展示界面：http://127.0.0.1:8888/page/index.html 
+API：http://127.0.0.1:8888
