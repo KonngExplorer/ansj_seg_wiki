@@ -1,10 +1,5 @@
 也没什么优势.-_-!
 
-lucene3.x版本的插件源码
-https://github.com/ansjsun/ansj_seg_lucene_32_plug
-lucene4.x版本的插件源码
-https://github.com/ansjsun/ansj_seg_lucene_40_plug
-
 
 ansj_seg.jar 是核心源码
 吧这两个jar加入到环境变量中.当然你要使用lucene需要lucene的jar.我就不废话了,
