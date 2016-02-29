@@ -1,9 +1,9 @@
 
 ### 下载地址
-可以从 [http://maven.ansj.org/org/ansj/](http://maven.ansj.org/org/ansj/) 下载你需要的jar包
+可以从 [http://maven.nlpcn.org/org/ansj/](http://maven.nlpcn.org/org/ansj/) 下载你需要的jar包
 
 ### 下载步骤
-1. 让分词运行需要两个jar，分别是 [tree_split](http://maven.ansj.org/org/ansj/tree_split/) 和 [ansj_seg](http://maven.ansj.org/org/ansj/ansj_seg/) 的jar 。建议每次下载保证这两个jar是最新的。
+1. 让分词运行需要两个jar，分别是 [tree_split](http://maven.nlpcn.org/org/ansj/tree_split/) 和 [ansj_seg](http://maven.nlpcn.org/org/ansj/ansj_seg/) 的jar 。建议每次下载保证这两个jar是最新的。
 2. 然后将jar导入到classpath中。应该不用多说了吧。你懂的
 
 
