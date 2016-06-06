@@ -1,6 +1,6 @@
 * **安装及使用**
-    * 获得jar包
-    * 分词方式
+    * [获得jar包](https://github.com/NLPchina/ansj_seg/wiki/%E8%8E%B7%E5%BE%97jar%E5%8C%85)
+    * [分词方式](%E5%88%86%E8%AF%8D%E6%96%B9%E5%BC%8F)
     * 获得源码
 
 * **使用技巧**
