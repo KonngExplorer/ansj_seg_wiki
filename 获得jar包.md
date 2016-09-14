@@ -30,7 +30,7 @@
 
 2. 在dependencies标签中粘贴如下:(其实version 以最新的为标准.)
 
-````
+````xml
 	<dependencies>
 		....
 		<dependency>
