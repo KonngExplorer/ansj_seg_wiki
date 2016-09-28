@@ -110,7 +110,7 @@
 
 Test.java的源码如下:
 
-```
+```java
 import java.io.IOException;
 
 import org.ansj.splitWord.analysis.NlpAnalysis;
