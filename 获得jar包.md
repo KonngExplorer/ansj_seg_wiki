@@ -6,26 +6,10 @@
 
 ## 下载步骤
 
->1. 让分词运行需要两个jar，分别是 [tree_split](http://maven.ansj.org/org/ansj/tree_split/) 和 [ansj_seg](http://maven.ansj.org/org/ansj/ansj_seg/) 的jar 。建议每次下载保证这两个jar是最新的。
+>1. 让分词运行需要两个jar，分别是 [nlp-lang](https://mvnrepository.com/artifact/org.nlpcn/nlp-lang) 和 [ansj_seg](https://mvnrepository.com/artifact/org.ansj/ansj_seg) 的jar 。建议每次下载保证这两个jar是最新的。
 2. 然后将jar导入到classpath中。应该不用多说了吧。你懂的
 
 #用maven导入
-
->1. 第一步在你的pom.xml中加入.
-
-````xml
-<project...>
-	....
-	
-	<repositories>
-		<repository>
-			<id>mvn-repo</id>
-			<url>http://maven.ansj.org/</url>
-		</repository>
-	</repositories>
-	....
-</project>
-````
 
 
 2. 在dependencies标签中粘贴如下:(其实version 以最新的为标准.)
@@ -36,8 +20,7 @@
 		<dependency>
 			<groupId>org.ansj</groupId>
 			<artifactId>ansj_seg</artifactId>
-			<classifier>min</classifier> <!--如果是需要nlp方式分词,就去掉这个标签-->
-			<version>1.4</version>
+			<version>5.1.6</version>
 		</dependency>
 		....
 	</dependencies>
