@@ -2,7 +2,7 @@
 
 ## 下载地址
 
->可以从 [http://maven.ansj.org/org/ansj/](http://maven.ansj.org/org/ansj/) 或[http://maven.nlpcn.org](http://maven.nlpcn.org)下载你需要的jar包
+>可以从 [https://mvnrepository.com/artifact/org.ansj/ansj_seg](https://mvnrepository.com/artifact/org.ansj/ansj_seg)下载你需要的jar包
 
 ## 下载步骤
 
